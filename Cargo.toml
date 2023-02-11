@@ -1,0 +1,10 @@
+[package]
+name = "carton"
+authors = ["Eugene Chou <euchou@ucsc.edu>"]
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.69"
+clap = { version = "4.1.4", features = ["derive"] }
+path_macro = "1.0.0"
