@@ -197,4 +197,5 @@ UseTab: Never
 
 pub const GITIGNORE: &str = r#"
 /target
+compile_commands.json
 "#;
