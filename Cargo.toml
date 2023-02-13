@@ -9,3 +9,7 @@ anyhow = "1.0.69"
 clap = { version = "4.1.4", features = ["derive"] }
 path_macro = "1.0.0"
 toml = "0.7.2"
+
+[build-dependencies]
+anyhow = "1.0.69"
+which = "4.4.0"
