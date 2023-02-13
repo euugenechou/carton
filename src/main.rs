@@ -111,7 +111,7 @@ fn save<P>(project: &str, path: P, contents: &str) -> Result<()>
 where
     P: AsRef<Path>,
 {
-    fs::write(path, contents.trim().replace("<PROJECT>", project))?;
+    fs::write(path, contents.trim_start().replace("<PROJECT>", project))?;
     Ok(())
 }
 
